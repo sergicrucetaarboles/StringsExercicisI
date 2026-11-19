@@ -44,31 +44,30 @@ El projecte està publicat al repositori de GitHub [StringsExercicisI](https://g
 ```
 StringsExercicisI/
 ├── README.md
-├── exercici01/Main.java
-├── exercici02/Main.java
-├── exercici03/Main.java
-├── exercici04/Main.java
-├── exercici05/Main.java
-├── exercici06/Main.java
-├── exercici07/Main.java
-├── exercici08/Main.java
-├── exercici09/Main.java
-└── exercici10/Main.java
+├── exercici01/exercici01.java
+├── exercici02/exercici02.java
+├── exercici03/exercici03.java
+├── exercici04/exercici04.java
+├── exercici05/exercici05.java
+├── exercici06/exercici06.java
+├── exercici07/exercici07.java
+├── exercici08/exercici08.java
+├── exercici09/exercici09.java
+└── exercici10/exercici10.java
 ```
  
-Cada exercici viu a la seva pròpia carpeta i la seva classe principal es diu `Main`, tal com demanen els enunciats. D'aquesta manera no hi ha conflictes de noms entre exercicis.
+Cada exercici viu a la seva pròpia carpeta i té el seu propi fitxer Java.
  
 ## 4. Com compilar i executar
  
 Cal obrir una terminal dins de la carpeta de l'exercici. Primer es compila amb `javac` i després s'executa amb `java`, sense escriure l'extensió. Com a exemple, per a l'exercici 01:
  
 ```bash
-cd exercici01
-javac Main.java
-java Main
+javac exercici01/exercici01.java
+java -cp exercici01 exercici01
 ```
- 
-Per als altres exercicis es fa el mateix, canviant de carpeta.
+
+Per als altres exercicis es fa el mateix, canviant el número de l'exercici.
  
 ---
  
