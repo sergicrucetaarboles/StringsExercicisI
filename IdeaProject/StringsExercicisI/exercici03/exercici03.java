@@ -8,6 +8,7 @@ public class exercici03 {
 
         String text = teclat.nextLine();
         String majuscules = text.toUpperCase();
-        
+        String minuscules = text.toLowerCase();
+
     }
 }
