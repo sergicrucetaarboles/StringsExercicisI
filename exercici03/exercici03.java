@@ -6,5 +6,6 @@ public class exercici03 {
         Scanner teclat = new Scanner(System.in);
         System.out.println("Introdueix un Text i Prem Enter:");
 
+        String text = teclat.nextLine();
     }
 }
