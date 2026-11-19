@@ -9,5 +9,12 @@ public class exercici04 {
         System.out.println("Introdueix un text:");
         String text = teclat.nextLine();
 
+
+        if (text.isEmpty()) {
+
+        } else {
+
+        }
+
     }
 }
