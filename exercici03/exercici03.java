@@ -12,5 +12,7 @@ public class exercici03 {
 
         System.out.println("En majúscules: " + majuscules);
         System.out.println("En minúscules: " + minuscules);
+
+        teclat.close();
     }
 }
