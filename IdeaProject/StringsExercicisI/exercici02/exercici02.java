@@ -4,5 +4,6 @@ public class exercici02 {
         String path = "home/user/index.html";
 
         int sep = path.lastIndexOf('/');
+        int dot = path.lastIndexOf('.');
     }
 }
