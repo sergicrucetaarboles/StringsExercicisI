@@ -11,5 +11,6 @@ public class exercici03 {
         String minuscules = text.toLowerCase();
 
         System.out.println("En majúscules: " + majuscules);
+        System.out.println("En minúscules: " + minuscules);
     }
 }
