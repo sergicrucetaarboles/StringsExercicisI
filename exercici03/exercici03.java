@@ -7,5 +7,7 @@ public class exercici03 {
         System.out.println("Introdueix un Text i Prem Enter:");
 
         String text = teclat.nextLine();
+        String majuscules = text.toUpperCase();
+        
     }
 }
