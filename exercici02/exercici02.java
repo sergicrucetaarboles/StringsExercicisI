@@ -5,5 +5,7 @@ public class exercici02 {
 
         int sep = path.lastIndexOf('/');
         int dot = path.lastIndexOf('.');
+
+        String nom = path.substring(sep + 1, dot);
     }
 }
