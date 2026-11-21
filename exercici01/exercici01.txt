@@ -1,0 +1,47 @@
+# Exercici 01: Digits
+
+## Pas 1: Entendre què es demana
+
+L'exercici dona un programa ja escrit i demana cinc coses: executar-lo i dir quina és la sortida per consola, quins mètodes de la classe `String` fa servir, si són estàtics o d'instància, quina funció té cada un i què retornen i amb quins paràmetres treballen. El programa agafa un número decimal, el converteix en text i compta quantes xifres hi ha abans i després del punt decimal.
+
+## Pas 2: Sortida per consola
+
+En executar el programa, la consola mostra això:
+
+```
+3 digits before decimal point
+2 digits after decimal point
+```
+
+## Pas 3: Seguiment del programa línia per línia
+
+La línia `double d = 858.48;` crea un número decimal. La línia `String s = String.valueOf(d);` el converteix en text, de manera que `s` passa a valer `"858.48"`. Ara ja no és un número, sinó una cadena de sis caràcters.
+
+Les posicions de la cadena es compten des de 0: el `8` és a la posició 0, el `5` a la 1, el `8` a la 2, el `.` a la 3, el `4` a la 4 i el `8` a la 5.
+
+La línia `int dot = s.indexOf('.');` busca el punt i guarda la seva posició, així que `dot` val 3. Com que el punt és a la posició 3, hi ha tres xifres abans (posicions 0, 1 i 2). La primera línia escriu, doncs, `3 digits before decimal point`.
+
+A la segona línia, `s.length()` val 6. El càlcul és `6 - 3 - 1 = 2`. Es resta 3 per descomptar les xifres d'abans del punt i es resta 1 per descomptar el punt mateix. Queden les dues xifres de després, el 4 i el 8. La segona línia escriu `2 digits after decimal point`.
+
+## Pas 4: Mètodes de la classe String que s'utilitzen
+
+El primer mètode és `String.valueOf(d)`. És un mètode estàtic, perquè es crida amb el nom de la classe (`String.`) i no amb una variable. La seva funció és convertir un valor en un text. Retorna un `String`. Té un paràmetre d'entrada, que en aquest cas és un `double`. Aquest mètode està sobrecarregat, és a dir, existeix en diverses versions que accepten `int`, `long`, `float`, `boolean`, `char` i altres tipus, i Java tria la que correspon al tipus de la variable.
+
+El segon mètode és `s.indexOf('.')`. És un mètode d'instància, perquè es crida sobre un objecte concret, la variable `s`. La seva funció és buscar la primera aparició d'un caràcter dins del text. Retorna un `int` amb la posició on l'ha trobat, o `-1` si el caràcter no hi és. Té un paràmetre d'entrada, el caràcter a buscar. Tècnicament el paràmetre és de tipus `int`, però Java converteix el `char` `'.'` automàticament.
+
+El tercer mètode és `s.length()`. També és un mètode d'instància. La seva funció és comptar quants caràcters té el text. Retorna un `int` amb aquesta quantitat. No té cap paràmetre d'entrada, per això els parèntesis van buits.
+
+## Pas 5: Un detall sobre `System.out.println`
+
+El programa també fa servir `System.out.println`, però no és un mètode de la classe `String`. És un mètode d'instància de la classe `PrintStream`, ja que `System.out` és un objecte d'aquesta classe. Rep un valor com a paràmetre, escriu per pantalla i no retorna res (`void`). El signe `+` que hi ha dins serveix per unir el número amb el text, i això s'anomena concatenació.
+
+## Pas 6: Errors habituals que cal evitar
+
+Un error molt comú és confondre mètodes estàtics i d'instància. `valueOf` es crida amb `String.` davant, mentre que `indexOf` i `length` es criden amb una variable. Un altre error és oblidar que les posicions comencen a 0, i per això el punt és a la posició 3 i no a la 4. També cal recordar el `- 1` del segon càlcul, que serveix per no comptar el punt com a xifra.
+
+Cal tenir present també una limitació: el programa només funciona bé amb números que `String.valueOf` converteix amb un punt decimal normal. Un número com `5.0` donaria `1 digits before` i `1 digits after`, i un de molt gran o molt petit, com `1.0E10`, es converteix amb notació científica i el recompte deixaria de tenir sentit.
+
+## Pas 7: Idea clau per recordar
+
+El programa converteix un número en text amb `String.valueOf` (estàtic), localitza el punt amb `indexOf` (d'instància) i calcula les xifres amb `length()` (d'instància). Les xifres d'abans del punt són la posició del punt, `dot`. Les xifres de després són `length() - dot - 1`.
+
