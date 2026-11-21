@@ -25,9 +25,9 @@ public class exercici05tasca01 {
             }
 
             if (localizado) {
-
+                System.out.println("Se ha localizado el libro");
             } else {
-
+                System.out.println("No se ha localizado el libro");
             }
         }
     }
