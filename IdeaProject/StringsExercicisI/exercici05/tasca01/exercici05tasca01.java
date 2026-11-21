@@ -6,6 +6,7 @@ public class exercici05tasca01 {
 
         Scanner teclat = new Scanner(System.in);
 
-
+        System.out.println("");
+        System.out.println("Introdueix un text:");
     }
 }
