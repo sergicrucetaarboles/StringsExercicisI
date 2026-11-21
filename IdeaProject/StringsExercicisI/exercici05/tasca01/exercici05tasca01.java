@@ -16,5 +16,6 @@ public class exercici05tasca01 {
         Scanner teclat = new Scanner(System.in);
         System.out.println("Bienvenido a nuestra biblioteca");
         System.out.println("Escribe el título del libro que quieres buscar:");
+        String titulo = teclat.nextLine().trim();
     }
 }
