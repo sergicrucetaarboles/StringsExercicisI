@@ -15,6 +15,7 @@ public class exercici06 {
         }
 
         System.out.println("Texto invertido: " + invertido);
-    }
 
+        teclat.close();
+    }
 }
