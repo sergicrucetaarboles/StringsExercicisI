@@ -9,6 +9,7 @@ public class exercici06 {
         System.out.println("Introduce un texto y pulsa enter:");
         String texto = teclat.nextLine();
 
+        String invertido = "";
     }
 
 }
