@@ -10,6 +10,10 @@ public class exercici05tasca01 {
         System.out.println("Introdueix un text:");
         String text = teclat.nextLine();
 
+        if (text.isEmpty()) {
 
+        } else {
+
+        }
     }
 }
