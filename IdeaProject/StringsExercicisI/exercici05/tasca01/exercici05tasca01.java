@@ -13,5 +13,6 @@ public class exercici05tasca01 {
                 "Empieza por los zapatos"
         };
 
+        Scanner teclat = new Scanner(System.in);
     }
 }
