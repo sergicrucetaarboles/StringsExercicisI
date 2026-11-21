@@ -7,5 +7,7 @@ public class exercici05tasca02 {
         };
 
         Scanner teclat = new Scanner(System.in);
+
+        System.out.println("Bienvenido a nuestra biblioteca");
     }
 }
