@@ -19,6 +19,8 @@ public class exercici05tasca01 {
         String titulo = teclat.nextLine().trim();
 
         boolean localizado = false;
+        for (int i = 0; i < catalogo.length; i++) {
 
+        }
     }
 }
