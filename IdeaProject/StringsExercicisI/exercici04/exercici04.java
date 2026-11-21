@@ -17,7 +17,7 @@ public class exercici04 {
             String paraula = teclat.nextLine();
 
         if (text.contains(paraula)) {
-
+            System.out.println("S'ha localitzat la paraula \"" + paraula + "\" al text.");
             } else {
 
             }
