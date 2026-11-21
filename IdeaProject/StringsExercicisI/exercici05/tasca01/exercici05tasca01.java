@@ -23,6 +23,12 @@ public class exercici05tasca01 {
             if (catalogo[i].equalsIgnoreCase(titulo)) {
                 localizado = true;
             }
+
+            if (localizado) {
+
+            } else {
+
+            }
         }
     }
 }
