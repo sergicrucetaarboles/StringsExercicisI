@@ -13,6 +13,8 @@ public class exercici06 {
         for (int i = texto.length() - 1; i >= 0; i--) {
             invertido = invertido + texto.charAt(i);
         }
+
+        System.out.println("Texto invertido: " + invertido);
     }
 
 }
