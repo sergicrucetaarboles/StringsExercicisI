@@ -5,6 +5,7 @@ public class exercici05tasca02 {
 
         String[] catalogo = { "Los muertos vivientes", "Brevísima historia del tiempo", "La clave secreta del universo", "Mi universo", "Patria", "De mayor quiero ser feliz", "Empieza por los zapatos"
         };
+        System .out.println("Catálogo de libros:");
 
         Scanner teclat = new Scanner(System.in);
 
