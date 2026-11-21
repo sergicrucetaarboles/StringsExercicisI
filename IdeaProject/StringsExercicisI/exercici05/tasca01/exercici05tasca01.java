@@ -20,7 +20,9 @@ public class exercici05tasca01 {
 
         boolean localizado = false;
         for (int i = 0; i < catalogo.length; i++) {
-
+            if (catalogo[i].equalsIgnoreCase(titulo)) {
+                localizado = true;
+            }
         }
     }
 }
