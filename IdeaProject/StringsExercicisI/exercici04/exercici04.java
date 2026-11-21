@@ -11,7 +11,7 @@ public class exercici04 {
 
 
         if (text.isEmpty()) {
-
+            System.out.println("El text està buit. El programa acaba.");
         } else {
 
         }
