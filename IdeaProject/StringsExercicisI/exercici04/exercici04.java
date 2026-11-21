@@ -15,6 +15,12 @@ public class exercici04 {
         } else {
             System.out.println("Introdueix la paraula que vols buscar:");
             String paraula = teclat.nextLine();
+
+        if (text.contains(paraula)) {
+
+            } else {
+
+            }
         }
 
     }
