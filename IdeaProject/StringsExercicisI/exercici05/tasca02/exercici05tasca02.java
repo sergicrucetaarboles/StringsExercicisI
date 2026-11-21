@@ -13,7 +13,7 @@ public class exercici05tasca02 {
         String busqueda = teclat.nextLine().trim();
 
         if (busqueda.isEmpty()) {
-
+            System.out.println("No has escrito ninguna palabra");
         } else {
 
         }
