@@ -17,5 +17,8 @@ public class exercici05tasca01 {
         System.out.println("Bienvenido a nuestra biblioteca");
         System.out.println("Escribe el título del libro que quieres buscar:");
         String titulo = teclat.nextLine().trim();
+
+        boolean localizado = false;
+
     }
 }
