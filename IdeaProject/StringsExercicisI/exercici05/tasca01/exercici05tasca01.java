@@ -29,6 +29,8 @@ public class exercici05tasca01 {
             } else {
                 System.out.println("No se ha localizado el libro");
             }
+
+            teclat.close();
         }
     }
 }
