@@ -1,20 +1,15 @@
-import java.util.Scanner;
-
 public class exercici05tasca01 {
-
     public static void main(String[] args) {
 
-        Scanner teclat = new Scanner(System.in);
+        String[] catalogo = {
+                "Los muertos vivientes",
+                "Brevísima historia del tiempo",
+                "La clave secreta del universo",
+                "Mi universo",
+                "Patria",
+                "De mayor quiero ser feliz",
+                "Empieza por los zapatos"
+        };
 
-        System.out.println("");
-        System.out.println("Introdueix un text:");
-        String text = teclat.nextLine();
-
-        if (text.isEmpty()) {
-            System.out.println("El text està buit. El programa acaba.");
-
-        } else {
-
-        }
     }
 }
