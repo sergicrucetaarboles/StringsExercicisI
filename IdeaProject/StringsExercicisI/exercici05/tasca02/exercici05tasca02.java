@@ -10,6 +10,8 @@ public class exercici05tasca02 {
 
         System.out.println("Bienvenido a nuestra biblioteca");
         System.out.println("Escribe palabra o palabras del título del libro que quieres buscar:");
+        String busqueda = teclat.nextLine().trim();
+
 
 
     }
