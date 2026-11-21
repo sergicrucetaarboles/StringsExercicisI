@@ -19,7 +19,7 @@ public class exercici04 {
         if (text.contains(paraula)) {
             System.out.println("S'ha localitzat la paraula \"" + paraula + "\" al text.");
             } else {
-
+            System.out.println("No s'ha localitzat la paraula \"" + paraula + "\" al text.");
             }
         }
 
