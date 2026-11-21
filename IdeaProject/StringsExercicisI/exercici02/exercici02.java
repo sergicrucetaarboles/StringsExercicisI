@@ -9,6 +9,7 @@ public class exercici02 {
         String nom = path.substring(sep + 1, dot);
         String extensio = path.substring(dot);
 
+        System.out.println("");
         System.out.println("L'extensió del Fitxer és: " + extensio);
         System.out.println("El Nom del Fitxer és: " + nom);
     }
