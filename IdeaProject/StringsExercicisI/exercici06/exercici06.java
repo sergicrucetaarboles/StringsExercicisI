@@ -10,6 +10,9 @@ public class exercici06 {
         String texto = teclat.nextLine();
 
         String invertido = "";
+        for (int i = texto.length() - 1; i >= 0; i--) {
+
+        }
     }
 
 }
