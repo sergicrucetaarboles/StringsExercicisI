@@ -16,6 +16,9 @@ public class exercici05tasca02 {
             System.out.println("No has escrito ninguna palabra");
         } else {
             boolean encontrado = false;
+            for (int i = 0; i < catalogo.length; i++) {
+
+            }
         }
 
 
