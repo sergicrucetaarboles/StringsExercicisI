@@ -11,6 +11,7 @@ public class exercici05tasca01 {
         String text = teclat.nextLine();
 
         if (text.isEmpty()) {
+            System.out.println("El text està buit. El programa acaba.");
 
         } else {
 
