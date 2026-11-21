@@ -15,7 +15,7 @@ public class exercici05tasca02 {
         if (busqueda.isEmpty()) {
             System.out.println("No has escrito ninguna palabra");
         } else {
-
+            boolean encontrado = false;
         }
 
 
