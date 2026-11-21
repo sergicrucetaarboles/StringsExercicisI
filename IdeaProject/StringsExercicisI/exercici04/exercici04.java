@@ -13,6 +13,7 @@ public class exercici04 {
         if (text.isEmpty()) {
             System.out.println("El text està buit. El programa acaba.");
         } else {
+            System.out.println("Introdueix la paraula que vols buscar:");
 
         }
 
