@@ -11,7 +11,7 @@ public class exercici06 {
 
         String invertido = "";
         for (int i = texto.length() - 1; i >= 0; i--) {
-
+            invertido = invertido + texto.charAt(i);
         }
     }
 
