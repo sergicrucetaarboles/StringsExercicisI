@@ -27,5 +27,6 @@ public class exercici05tasca02 {
                 }
             }
         }
+        teclat.close();
     }
 }
