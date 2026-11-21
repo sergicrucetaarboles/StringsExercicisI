@@ -17,7 +17,9 @@ public class exercici05tasca02 {
         } else {
             boolean encontrado = false;
             for (int i = 0; i < catalogo.length; i++) {
+                if (catalogo[i].toLowerCase().contains(busqueda.toLowerCase())) {
 
+                }
             }
         }
 
