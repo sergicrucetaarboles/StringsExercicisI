@@ -22,6 +22,6 @@ public class exercici04 {
             System.out.println("No s'ha localitzat la paraula \"" + paraula + "\" al text.");
             }
         }
-
+        teclat.close();
     }
 }
