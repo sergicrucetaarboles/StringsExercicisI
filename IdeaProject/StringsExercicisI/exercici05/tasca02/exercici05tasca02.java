@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class exercici05tasca02 {
     public static void main(String[] args) {
 
