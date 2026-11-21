@@ -20,11 +20,12 @@ public class exercici05tasca02 {
                 if (catalogo[i].toLowerCase().contains(busqueda.toLowerCase())) {
                     System.out.println(catalogo[i]);
                     encontrado = true;
+
+                    if (!encontrado) {
+                        System.out.println("No se ha encontrado ningún libro");
+                    }
                 }
             }
         }
-
-
-
     }
 }
