@@ -28,5 +28,6 @@ public class exercici05tasca02 {
             }
         }
         teclat.close();
+        // Cierra el escáner para liberar recursos
     }
 }
