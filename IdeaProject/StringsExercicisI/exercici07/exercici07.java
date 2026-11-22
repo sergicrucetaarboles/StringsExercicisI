@@ -17,5 +17,9 @@ public class exercici07 {
         String respuesta = teclat.nextLine();
 
         respuesta = respuesta.trim().toLowerCase();
+
+        if (respuesta.equals(correcta)) {
+            System.out.println("Respuesta correcta!");
+        }
     }
 }
