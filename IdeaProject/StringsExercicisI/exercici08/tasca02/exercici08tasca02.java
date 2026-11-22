@@ -25,6 +25,8 @@ public class exercici08tasca02 {
             System.out.println("Intenta adivinar la pelicula");
             System.out.println(String.valueOf(progreso));
 
+            System.out.println("Introduce una letra:");
+            String entrada = teclat.nextLine().trim();
 
         }
     }
