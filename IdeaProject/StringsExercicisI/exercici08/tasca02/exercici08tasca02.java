@@ -42,6 +42,8 @@ public class exercici08tasca02 {
             }
 
             progreso[i] = pelicula.charAt(i);
+            System.out.println(String.valueOf(progreso));
+
 
         }
     }
