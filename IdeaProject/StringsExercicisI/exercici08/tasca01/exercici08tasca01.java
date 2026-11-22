@@ -17,6 +17,8 @@ public class exercici08tasca01 {
                 progreso[i] = '*';
             }
 
+            System.out.println("Bienvenido al Mini juego del ahorcado");
+
         }
     }
 }
