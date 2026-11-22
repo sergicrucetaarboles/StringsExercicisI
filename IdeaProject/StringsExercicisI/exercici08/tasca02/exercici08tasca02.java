@@ -23,6 +23,9 @@ public class exercici08tasca02 {
 
             System.out.println("Bienvenido al Mini juego del ahorcado");
             System.out.println("Intenta adivinar la pelicula");
+            System.out.println(String.valueOf(progreso));
+
+
         }
     }
 }
