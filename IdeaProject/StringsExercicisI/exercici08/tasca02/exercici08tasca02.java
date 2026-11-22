@@ -31,6 +31,9 @@ public class exercici08tasca02 {
             if (entrada.length() != 1) {
                 System.out.println("Debes escribir una sola letra");
             }
+
+            char letra = entrada.charAt(0);
+
         }
     }
 }
