@@ -5,5 +5,8 @@ public class exercici08tasca01 {
 
         char[] progreso = new char[pelicula.length()];
 
+        for (int i = 0; i < pelicula.length(); i++) {
+
+        }
     }
 }
