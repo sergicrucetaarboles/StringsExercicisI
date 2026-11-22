@@ -40,6 +40,9 @@ public class exercici08tasca02 {
                     progreso[i] = pelicula.charAt(i);
                 }
             }
+
+            progreso[i] = pelicula.charAt(i);
+
         }
     }
 }
