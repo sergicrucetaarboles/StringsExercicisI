@@ -5,6 +5,7 @@ public class exercici07 {
     public static void main(String[] args) {
 
         Scanner teclat = new Scanner(System.in);
+
         String correcta = "d";
 
         System.out.println("");
@@ -15,5 +16,6 @@ public class exercici07 {
         System.out.println("d. String");
         String respuesta = teclat.nextLine();
 
+        respuesta = respuesta.trim().toLowerCase();
     }
 }
