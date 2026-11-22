@@ -5,5 +5,6 @@ public class exercici08tasca02 {
 
         Scanner teclat = new Scanner(System.in);
 
+        String pelicula = "Forrest Gump";
     }
 }
