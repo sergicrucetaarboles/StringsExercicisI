@@ -33,7 +33,13 @@ public class exercici08tasca02 {
             }
 
             char letra = entrada.charAt(0);
+            for (int i = 0; i < pelicula.length(); i++) {
+                if (Character.toLowerCase(pelicula.charAt(i))
+                        == Character.toLowerCase(letra)) {
 
+                    progreso[i] = pelicula.charAt(i);
+                }
+            }
         }
     }
 }
