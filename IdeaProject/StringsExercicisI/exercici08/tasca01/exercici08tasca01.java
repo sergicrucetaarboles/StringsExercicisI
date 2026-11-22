@@ -13,6 +13,10 @@ public class exercici08tasca01 {
             else if (pelicula.charAt(i) == ' ') {
                 progreso[i] = ' ';
             }
+            else {
+                progreso[i] = '*';
+            }
+
         }
     }
 }
