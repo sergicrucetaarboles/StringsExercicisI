@@ -7,6 +7,9 @@ public class exercici08tasca01 {
 
         for (int i = 0; i < pelicula.length(); i++) {
 
+            if (i == 0) {
+                progreso[i] = pelicula.charAt(0);
+            }
         }
     }
 }
