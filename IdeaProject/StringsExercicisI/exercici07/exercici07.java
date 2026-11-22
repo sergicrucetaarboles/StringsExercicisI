@@ -21,5 +21,13 @@ public class exercici07 {
         if (respuesta.equals(correcta)) {
             System.out.println("Respuesta correcta!");
         }
+        else if (respuesta.equals("a")
+                || respuesta.equals("b")
+                || respuesta.equals("c")) {
+
+            System.out.println(
+                    "Respuesta incorrecta, la respuesta correcta es: "
+                            + correcta);
+        }
     }
 }
