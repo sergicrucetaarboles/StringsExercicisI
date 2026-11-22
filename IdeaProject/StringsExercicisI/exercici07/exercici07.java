@@ -29,5 +29,8 @@ public class exercici07 {
                     "Respuesta incorrecta, la respuesta correcta es: "
                             + correcta);
         }
+        else {
+            System.out.println("Respuesta no válida: a, b, c, d");
+        }
     }
 }
