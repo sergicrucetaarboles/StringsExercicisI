@@ -32,5 +32,7 @@ public class exercici07 {
         else {
             System.out.println("Respuesta no válida: a, b, c, d");
         }
+
+        teclat.close();
     }
 }
