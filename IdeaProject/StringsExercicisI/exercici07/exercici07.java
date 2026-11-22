@@ -7,5 +7,6 @@ public class exercici07 {
         Scanner teclat = new Scanner(System.in);
         String correcta = "d";
 
+        System.out.println("Indica cual de las siguientes opciones no es un tipo primitivo en Java:");
     }
 }
