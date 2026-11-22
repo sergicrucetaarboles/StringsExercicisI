@@ -28,6 +28,9 @@ public class exercici08tasca02 {
             System.out.println("Introduce una letra:");
             String entrada = teclat.nextLine().trim();
 
+            if (entrada.length() != 1) {
+                System.out.println("Debes escribir una sola letra");
+            }
         }
     }
 }
