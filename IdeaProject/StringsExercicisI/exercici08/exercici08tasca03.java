@@ -27,5 +27,10 @@ public class exercici08tasca03 {
 
         int intentos = 0;
         boolean acertado = false;
+
+        while (intentos < MAX_INTENTOS && !acertado) {
+
+        }
+
     }
 }
