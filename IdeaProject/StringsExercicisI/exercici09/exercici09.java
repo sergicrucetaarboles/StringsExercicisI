@@ -9,7 +9,7 @@ public class exercici09 {
 
         String texto = teclat.nextLine().trim();
 
-
+        int punto = texto.lastIndexOf('.');
 
 
 
