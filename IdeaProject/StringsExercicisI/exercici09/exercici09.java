@@ -19,5 +19,10 @@ public class exercici09 {
 
         int palabras = 0;
 
+        if (!cuerpo.trim().isEmpty()) {
+            String[] partes = cuerpo.trim().split(" ");
+            palabras = partes.length;
+        }
+
     }
 }
