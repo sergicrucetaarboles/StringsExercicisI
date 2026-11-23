@@ -36,5 +36,12 @@ public class exercici08tasca03 {
                     + MAX_INTENTOS + "):");
         }
         String entrada = teclat.nextLine().trim();
+
+        if (entrada.length() != 1
+                || !Character.isLetter(entrada.charAt(0))) {
+
+            System.out.println("Debes escribir una sola letra");
+            continue;
+        }
     }
 }
