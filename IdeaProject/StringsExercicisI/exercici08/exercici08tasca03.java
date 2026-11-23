@@ -10,5 +10,14 @@ public class exercici08tasca03 {
 
         char[] progreso = new char[pelicula.length()];
 
+        for (int i = 0; i < pelicula.length(); i++) {
+            if (i == 0) {
+                progreso[i] = pelicula.charAt(0);
+            } else if (pelicula.charAt(i) == ' ') {
+                progreso[i] = ' ';
+            } else {
+                progreso[i] = '*';
+            }
+        }
     }
 }
