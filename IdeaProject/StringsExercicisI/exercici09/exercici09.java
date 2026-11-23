@@ -26,5 +26,9 @@ public class exercici09 {
 
         String vocales = "aeiouáàéèíïóòúü";
         int numVocales = 0;
+
+        for (int i = 0; i < cuerpo.length(); i++) {
+
+        }
     }
 }
