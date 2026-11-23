@@ -5,6 +5,7 @@ public class exercici08tasca03 {
 
         Scanner teclat = new Scanner(System.in);
 
-
+        String pelicula = "Forrest Gump";
+        final int MAX_INTENTOS = 3;
     }
 }
