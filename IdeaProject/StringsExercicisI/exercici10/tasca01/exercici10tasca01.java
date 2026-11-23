@@ -11,6 +11,7 @@ public class exercici10tasca01 {
         };
 
         for (int i = 0; i < alumnos.length; i++) {
+            System.out.print(alumnos[i]);
 
         }
     }
