@@ -30,6 +30,10 @@ public class exercici10tasca02 {
             };
 
             mostrarNombres(alumnos);
+
+            System.out.println("¿Qué posición quieres cambiar?");
+
+
         }
     }
 }
