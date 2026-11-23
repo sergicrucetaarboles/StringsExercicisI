@@ -9,5 +9,9 @@ public class exercici10tasca01 {
                 "Saul",
                 "Enrique"
         };
+
+        for (int i = 0; i < alumnos.length; i++) {
+
+        }
     }
 }
