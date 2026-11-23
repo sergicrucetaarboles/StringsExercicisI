@@ -16,5 +16,8 @@ public class exercici10tasca01 {
                 System.out.print(", ");
             }
         }
+
+        System.out.println();
+
     }
 }
