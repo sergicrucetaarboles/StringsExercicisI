@@ -18,8 +18,17 @@ public class exercici10tasca02 {
 
             public static void main(String[] args) {
                 Scanner teclado = new Scanner(System.in);
-
             }
+
+            String[] alumnos = {
+                    "Paula",
+                    "Santiago",
+                    "Pascual",
+                    "Jorge",
+                    "Saul",
+                    "Enrique"
+            };
+
         }
     }
 }
