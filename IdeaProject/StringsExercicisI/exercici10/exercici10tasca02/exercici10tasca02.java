@@ -35,7 +35,17 @@ public class exercici10tasca02 {
 
             if (!teclado.hasNextInt()) {
                 System.out.println("La posición debe ser un número");
+            } else {
+                int posicion = teclado.nextInt();
+
+                if (posicion < 0 || posicion >= alumnos.length) {
+                    System.out.println("La posición debe estar entre 0 y " + (alumnos.length - 1));
+                } else {
+                    int posicion = teclado.nextInt();
+                    teclado.nextLine();
+                }
             }
+
         }
     }
 }
