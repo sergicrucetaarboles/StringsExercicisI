@@ -13,7 +13,9 @@ public class exercici09 {
 
         String cuerpo = texto;
 
-
+        if (punto != -1) {
+            cuerpo = texto.substring(0, punto);
+        }
 
 
 
