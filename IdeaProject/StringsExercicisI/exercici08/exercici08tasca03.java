@@ -7,5 +7,8 @@ public class exercici08tasca03 {
 
         String pelicula = "Forrest Gump";
         final int MAX_INTENTOS = 3;
+
+        char[] progreso = new char[pelicula.length()];
+
     }
 }
