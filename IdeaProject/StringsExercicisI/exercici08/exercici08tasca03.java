@@ -68,6 +68,9 @@ public class exercici08tasca03 {
 
         if (acertado) {
             System.out.println("¡Enhorabuena! Has adivinado la película: " + pelicula);
+        } else {
+            System.out.println("Se acabaron los intentos. La película era: " + pelicula);
         }
+
     }
 }
