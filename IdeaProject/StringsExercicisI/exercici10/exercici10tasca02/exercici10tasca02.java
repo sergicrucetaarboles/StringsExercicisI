@@ -17,6 +17,7 @@ public class exercici10tasca02 {
             System.out.println();
 
             public static void main(String[] args) {
+                Scanner teclado = new Scanner(System.in);
 
             }
         }
