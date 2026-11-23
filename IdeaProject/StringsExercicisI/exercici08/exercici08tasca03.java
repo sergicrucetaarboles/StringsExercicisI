@@ -24,5 +24,8 @@ public class exercici08tasca03 {
         System.out.println("Intenta adivinar la pelicula");
 
         System.out.println(String.valueOf(progreso));
+
+        int intentos = 0;
+        boolean acertado = false;
     }
 }
