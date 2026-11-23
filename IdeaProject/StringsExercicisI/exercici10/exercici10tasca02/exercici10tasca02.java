@@ -47,6 +47,7 @@ public class exercici10tasca02 {
             }
             if (posicion >= 0 && posicion < alumnos.length) {
 
+                System.out.println("El nombre actual es: " + alumnos[posicion]);
 
             }
         }
