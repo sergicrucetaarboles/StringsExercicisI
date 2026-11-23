@@ -58,5 +58,13 @@ public class exercici08tasca03 {
 
         System.out.println(String.valueOf(progreso));
 
+        acertado = true;
+
+        for (int i = 0; i < progreso.length; i++) {
+            if (progreso[i] == '*') {
+                acertado = false;
+            }
+        }
+
     }
 }
