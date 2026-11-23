@@ -59,5 +59,6 @@ public class exercici10tasca02 {
                 }
             }
         }
+        teclado.close();
     }
 }
