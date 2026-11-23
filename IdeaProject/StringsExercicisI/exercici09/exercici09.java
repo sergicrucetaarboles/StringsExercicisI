@@ -24,5 +24,7 @@ public class exercici09 {
             palabras = partes.length;
         }
 
+        String vocales = "aeiouáàéèíïóòúü";
+        int numVocales = 0;
     }
 }
