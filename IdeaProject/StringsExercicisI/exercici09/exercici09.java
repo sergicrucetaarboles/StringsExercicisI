@@ -39,5 +39,7 @@ public class exercici09 {
 
         System.out.println("Número de palabras: " + palabras);
         System.out.println("Número de vocales: " + numVocales);
+
+        teclat.close();
     }
 }
