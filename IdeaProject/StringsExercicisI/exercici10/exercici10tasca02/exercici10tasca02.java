@@ -45,7 +45,10 @@ public class exercici10tasca02 {
                     teclado.nextLine();
                 }
             }
+            if (posicion >= 0 && posicion < alumnos.length) {
 
+
+            }
         }
     }
 }
