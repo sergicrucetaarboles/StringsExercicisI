@@ -30,6 +30,10 @@ public class exercici08tasca03 {
 
         while (intentos < MAX_INTENTOS && !acertado) {
 
+            System.out.println("Introduce una letra (intento "
+                    + (intentos + 1)
+                    + " de "
+                    + MAX_INTENTOS + "):");
         }
 
     }
