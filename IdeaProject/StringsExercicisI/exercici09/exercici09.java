@@ -7,7 +7,7 @@ public class exercici09 {
 
         System.out.println("Introduce un texto que termine con un punto:");
 
-
+        String texto = teclat.nextLine().trim();
 
 
 
