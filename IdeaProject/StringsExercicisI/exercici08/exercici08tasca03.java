@@ -35,6 +35,6 @@ public class exercici08tasca03 {
                     + " de "
                     + MAX_INTENTOS + "):");
         }
-
+        String entrada = teclat.nextLine().trim();
     }
 }
