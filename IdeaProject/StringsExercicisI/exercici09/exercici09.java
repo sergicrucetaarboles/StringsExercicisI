@@ -11,7 +11,7 @@ public class exercici09 {
 
         int punto = texto.lastIndexOf('.');
 
-
+        String cuerpo = texto;
 
 
 
