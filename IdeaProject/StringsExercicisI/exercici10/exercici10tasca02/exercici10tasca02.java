@@ -50,6 +50,7 @@ public class exercici10tasca02 {
                 System.out.println("El nombre actual es: " + alumnos[posicion]);
                 System.out.println("Introduce el nuevo nombre:");
                 String nuevoNombre = teclado.nextLine().trim();
+                alumnos[posicion] = nuevoNombre;
             }
         }
     }
