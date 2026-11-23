@@ -72,5 +72,6 @@ public class exercici08tasca03 {
             System.out.println("Se acabaron los intentos. La película era: " + pelicula);
         }
 
+        teclat.close();
     }
 }
