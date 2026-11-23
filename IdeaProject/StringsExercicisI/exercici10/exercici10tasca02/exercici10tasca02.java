@@ -1,3 +1,4 @@
+package exercici10tasca02;
 
 import java.util.Scanner;
 
@@ -14,6 +15,10 @@ public class exercici10tasca02 {
             }
 
             System.out.println();
+
+            public static void main(String[] args) {
+
+            }
         }
     }
 }
