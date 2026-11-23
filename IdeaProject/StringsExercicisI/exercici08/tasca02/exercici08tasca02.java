@@ -1,3 +1,5 @@
+package tasca02;
+
 import java.util.Scanner;
 
 public class exercici08tasca02 {
@@ -37,7 +39,7 @@ public class exercici08tasca02 {
 
             // 5. Descobrim la lletra a TOTES les posicions on aparegui
             //    (sense distingir majúscules/minúscules)
-            for (int i = 0; i < pelicula.length(); i++) {
+            for (i = 0; i < pelicula.length(); i++) {
                 if (Character.toLowerCase(pelicula.charAt(i))
                         == Character.toLowerCase(letra)) {
 
