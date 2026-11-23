@@ -33,7 +33,9 @@ public class exercici10tasca02 {
 
             System.out.println("¿Qué posición quieres cambiar?");
 
-
+            if (!teclado.hasNextInt()) {
+                System.out.println("La posición debe ser un número");
+            }
         }
     }
 }
