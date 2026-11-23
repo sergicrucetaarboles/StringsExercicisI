@@ -17,7 +17,7 @@ public class exercici09 {
             cuerpo = texto.substring(0, punto);
         }
 
-
+        int palabras = 0;
 
     }
 }
