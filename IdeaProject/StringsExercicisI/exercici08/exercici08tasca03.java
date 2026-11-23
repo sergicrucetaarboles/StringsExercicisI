@@ -56,6 +56,7 @@ public class exercici08tasca03 {
             }
         }
 
+        System.out.println(String.valueOf(progreso));
 
     }
 }
