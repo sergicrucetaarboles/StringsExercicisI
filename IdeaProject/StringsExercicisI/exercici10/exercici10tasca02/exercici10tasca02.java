@@ -29,6 +29,7 @@ public class exercici10tasca02 {
                     "Enrique"
             };
 
+            mostrarNombres(alumnos);
         }
     }
 }
