@@ -29,6 +29,12 @@ public class exercici09 {
 
         for (int i = 0; i < cuerpo.length(); i++) {
 
+            char c = Character.toLowerCase(cuerpo.charAt(i));
+
+            if (vocales.indexOf(c) != -1) {
+                numVocales++;
+            }
+
         }
     }
 }
