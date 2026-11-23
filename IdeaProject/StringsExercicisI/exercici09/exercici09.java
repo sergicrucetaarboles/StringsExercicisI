@@ -5,7 +5,7 @@ public class exercici09 {
 
         Scanner teclat = new Scanner(System.in);
 
-
+        System.out.println("Introduce un texto que termine con un punto:");
 
 
 
