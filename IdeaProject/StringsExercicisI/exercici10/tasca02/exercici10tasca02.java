@@ -13,6 +13,7 @@ public class exercici10tasca02 {
                 System.out.print(", ");
             }
 
+            System.out.println();
         }
     }
 }
