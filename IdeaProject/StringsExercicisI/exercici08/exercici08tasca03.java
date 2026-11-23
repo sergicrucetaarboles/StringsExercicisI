@@ -42,6 +42,10 @@ public class exercici08tasca03 {
 
             System.out.println("Debes escribir una sola letra");
             continue;
+
         }
+
+        char letra = entrada.charAt(0);
+        intentos++;
     }
 }
